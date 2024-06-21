@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131-Dynamic Web Fundamentals - William Wilson Mensah</title>
+    <meta name="description" content="Wilson's Homepage">
+    <meta name="author" content="William Wilson Mensah">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,400;1,100&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WDD 131</h1>
+    <header>
+        <h1>WDD 131-Dynamic Web Fundamentals -William Wilson Mensah</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/jobs/view/3859878602/">Linkedin Profile</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/17?lang=eng">Scripture</a></li>
+                <li><a href="">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class=" about-me card">
+            <h2>About Me</h2>
+            <p>My name is William Wilson Mensah from Ghana. I love to study new
+                ideas and concepts. I am glad to finally get a know how about
+                HTMl and css. Every week in the class comes with it own challenges
+                but I am putting in the best effort to have a sound understanding as
+                the class progresses. I have developed immersed love for what I am doing.
+                I hope to be able to achieve good results.</p>
+                <ul>
+                    
+                </ul>
+        </section>
+        <section class="Profile card">
+            <img src="images/profile.jpg" alt="Hello, My name is William Wilson Mensah" width="200">
+        </section></div>
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> - William Wilson Mensah - Madagascar</p>
+        <p id="lastModified">Last Modification</p>
+    </footer>
+    <!-- <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        document.getElementById('lastModified').textContent = 'Last Modification: ${document.lastModified}';
+    </script> -->
 </body>
 </html>
